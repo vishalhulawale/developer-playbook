@@ -75,8 +75,24 @@
 ✅ Exception hierarchy https://rollbar.com/blog/java-exceptions-hierarchy-explained/
 ✅ throw vs throws
 ✅ Custom exceptions
-✅ Exception handling scenarios
-✅ Best practices
+- Exception handling scenarios
+- Best practices
+
+## 7. Java Generics
+- Generic classes & methods
+- Type erasure
+- Bounded generics
+- Wildcards (?, extends, super)
+- PECS principle
+
+## 8. Java I/O & NIO
+- File handling
+- Streams
+- Serialization & deserialization
+- Externalizable
+- NIO basics
+- Channels & Buffers
+- Path, Files API
 
 ## 6. Java Collections Framework
 - Collection hierarchy
@@ -162,11 +178,6 @@
 - Multiple inheritance with default methods
 - forEach
 - Collectors
-- Pure functions
-- Immutability
-- Stateless design
-- Higher-order functions
-- Lazy evaluation
 
 ## 12. Java Streams API (Deep Dive)
 - filter, map, collect, flatMap, peek
@@ -175,33 +186,17 @@
 - Stream-based problems
   - Merge and sort two arrays
   - Average of students grouped by department
-  - Sort employees using Comparator.comparing
+  - Sort employees using Comparator
 
-## 21. Serialization & JVM Compatibility
-- SerialVersionUID
-- UID & versioning
-- Performance considerations
-
-## 18. Design Patterns
-### Creational
-- Singleton
-- Factory
-- Abstract Factory
-- Builder
-
-### Structural
-- Adapter
-- Decorator
-- Proxy
-- Facade
-
-### Behavioral
-- Strategy
-- Observer
-- Command
-- Template Method
-
-- Real-world usage patterns
+## 13. Date & Time API
+- LocalDate
+- LocalTime
+- LocalDateTime
+- ZonedDateTime
+- Instant
+- Duration
+- Period
+- DateTimeFormatter
 
 ## 14. Java 9–11 Enhancements
 - Module system (JPMS)
@@ -230,32 +225,6 @@
 - Foreign Function & Memory API
 - Performance & GC improvements
 
-## 7. Java Generics
-- Generic classes & methods
-- Type erasure
-- Bounded generics
-- Wildcards (?, extends, super)
-- PECS principle
-
-## 8. Java I/O & NIO
-- File handling
-- Streams
-- Serialization & deserialization
-- Externalizable
-- NIO basics
-- Channels & Buffers
-- Path, Files API
-
-## 13. Date & Time API
-- LocalDate
-- LocalTime
-- LocalDateTime
-- ZonedDateTime
-- Instant
-- Duration
-- Period
-- DateTimeFormatter
-
 ## 17. JVM Internals (Advanced)
 - Bytecode structure
 - JIT compiler
@@ -264,11 +233,44 @@
 - Safepoints
 - JVM tuning flags
 
+## 18. Design Patterns
+### Creational
+- Singleton
+- Factory
+- Abstract Factory
+- Builder
+
+### Structural
+- Adapter
+- Decorator
+- Proxy
+- Facade
+
+### Behavioral
+- Strategy
+- Observer
+- Command
+- Template Method
+
+- Real-world usage patterns
+
+## 19. Functional Programming Concepts
+- Pure functions
+- Immutability
+- Stateless design
+- Higher-order functions
+- Lazy evaluation
+
 ## 20. Java Reflection & Annotations
 - Reflection API
 - Runtime vs compile-time annotations
 - Custom annotations
 - Annotation processing
+
+## 21. Serialization & JVM Compatibility
+- SerialVersionUID
+- UID & versioning
+- Performance considerations
 
 ## 22. Performance & Optimization
 - Profiling
