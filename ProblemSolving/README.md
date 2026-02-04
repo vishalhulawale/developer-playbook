@@ -1,6 +1,3 @@
-
-
-
 ## Guiding Principles (Read Once)
 - Prioritize **clarity, correctness, and predictability**
 - Avoid exotic data structures and competitive-programming tricks
@@ -13,13 +10,13 @@
 ## DAY 1 – Arrays & Strings (Foundation Day)
 
 ### Concepts to Master
-- Time vs space trade-offs
-- In-place algorithms
-- Two pointers (same & opposite direction)
-- Sliding window (fixed & variable)
-- Prefix sum
-- Kadane’s algorithm
-- Edge cases (empty array, single element, all negatives)
+✅ Time vs space trade-offs
+✅ In-place algorithms
+✅ Two pointers (same & opposite direction)
+✅ Sliding window (fixed & variable)
+✅ Prefix sum
+✅ Kadane’s algorithm
+✅ Edge cases (empty array, single element, all negatives)
 
 ### Core Problems (Must Do)
 1. Maximum Subarray Sum (Kadane’s Algorithm)
